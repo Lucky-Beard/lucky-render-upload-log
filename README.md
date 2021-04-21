@@ -1,7 +1,7 @@
 # lucky-render-upload-log
 
-This library is used as a nexrender action to upload the render worker log file to S3. 
-Unfortunately it's not suitable for public use, but you're welcome to fork and create your own version.
+This library is used as a nexrender postrender action to upload the render worker log file to the cloud. 
+It utilizes the provider packages of Nexrender and supports the same cloud uploads as the regular nexrender/action-upload
 
 ## Usage
 Install using npm or yarn
@@ -28,4 +28,7 @@ actions: {
 ```
 
 ## How it works
-The module will upload the logfile to the supplied key and S3 Bucket
+The module will upload the logfile to the supplied key and S3 Bucket. 
+
+## Notes
+Note that you don't need to supply the file name in the key, it only needs a folder name. The script will append the job log to the key.

@@ -1,7 +1,7 @@
 {
   "name": "lucky-render-upload-log",
-  "version": "1.0.0",
-  "description": "This is a private library used to upload log files.",
+  "version": "1.0.1",
+  "description": "This is a library that allows you to upload the render worker log file to the cloud.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
