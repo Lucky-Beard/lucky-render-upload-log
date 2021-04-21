@@ -1,0 +1,25 @@
+{
+  "name": "lucky-render-upload-log",
+  "version": "1.0.0",
+  "description": "This is a private library used to upload log files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucky-Beard/lucky-render-upload-log.git"
+  },
+  "keywords": [
+    "Nexrender",
+    "logfile",
+    "upload"
+  ],
+  "author": "Lucky Beard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucky-Beard/lucky-render-upload-log/issues"
+  },
+  "homepage": "https://github.com/Lucky-Beard/lucky-render-upload-log#readme",
+  "dependencies": {}
+}
